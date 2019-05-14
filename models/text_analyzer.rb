@@ -39,4 +39,8 @@ class TextAnalyzer
 
     biggest
   end
+
+  def most_used_letter_count
+    text.downcase.count(self.most_used_letter)
+  end
 end
