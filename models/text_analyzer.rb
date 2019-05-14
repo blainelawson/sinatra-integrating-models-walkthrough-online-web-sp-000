@@ -41,6 +41,7 @@ class TextAnalyzer
   end
 
   def most_used_letter_count
+    binding.pry
     text.downcase.count(self.most_used_letter)
   end
 end
