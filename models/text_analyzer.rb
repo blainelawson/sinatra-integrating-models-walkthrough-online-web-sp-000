@@ -6,7 +6,7 @@ class TextAnalyzer
   end
 
   def count_of_words
-    binding.pry
+    # binding.pry
     words = text.split(" ")
     words.count
   end
